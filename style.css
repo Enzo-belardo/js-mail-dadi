@@ -1,0 +1,41 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-dadi{
+    width: 80%;
+    border: solid 1px black;
+    text-align: center;
+}
+.container-dadi #butt{
+    border: solid 1px black;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    background-color: blue;
+    color: white;
+    margin-bottom: 1rem;
+}
+#output-one{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: red;
+
+}
+.container-dadi h1{
+    color: blue;
+}
+.container-email{
+    width: 80%;
+    border: solid 1px black;
+    margin-top: 5rem;
+    text-align: center;
+}
+.container-email>h1{
+    color: red;
+
+}
+#output{
+    margin-top: 3rem;
+
+}
