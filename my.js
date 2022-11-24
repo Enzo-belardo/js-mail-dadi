@@ -3,11 +3,13 @@
 
 const button = document.getElementById('button');
 
-let number =  []
-
-for (let i = 0; i < 6 ; i++){
-    const randomNum = Math.floor(Math.random () * 6);
-    number.push (randomNum);
-
+const randomComp = Math.floor(Math.random () * 6) +1;
+const randomUser = Math.floor(Math.random () * 6) +1;
+if (randomComp > randomUser){
+    console.log('ha vinto il computer');
+}else if(randomUser > randomComp){
+    console.log("ha vinto l'user");
+}else if(randomUser === randomComp){
+    console.log('avete pareggiato')
 }
-console.log(number)
+
